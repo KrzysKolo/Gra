@@ -1,0 +1,31 @@
+@charset "utf-8";
+.text-info {
+	padding: 5px;
+	font-size: 2rem;
+}
+.noShow {
+	display: none;
+}
+.gra {
+	margin-top: 30px;
+	padding-top: 30px;
+	
+}
+
+.btn {
+	padding: 5px 10px;
+	margin-right: 20px;
+}
+.gracz {
+	margin: 10px;
+	border: #B7B7B7 1px solid;
+	border-radius: 10px;
+	box-shadow: #CCC -2px -2px 1px;
+}
+.suma {
+	font-size: 20px;
+	padding: 5px;
+}
+.grac {
+		float: right;
+	}

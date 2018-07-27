@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Gra: papier, nożyczki, kamień</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="_css/main.css" rel="stylesheet">
+  </head>
+<body>
+<!-- Powitanie w grze i tytuł gry -->
+ <div class="container">
+   <div class="row">
+     <div class="col-lg-10 text-center">
+       <h3>Witaj <span id="name" class="text-danger"></span> w grze
+           <span class="label label-default">Nożyce</span>
+           <span class="label label-info">Kamień</span>
+           <span class="label label-danger">Papier</span>
+       </h3>
+       <p class="text-info"> Jeśli chcesz zagrać w grę wciśnij przycisk</p>
+       <button id="newGame" class="btn btn-primary">Nowa Gra</button>
+     </div>
+   </div>
+ </div>
+ <!-- Wybory gracza i computera -->
+<div class="noShow container gra ">
+   <div class="row">
+     <div class="col-lg-4 gracz text-center " id="gracz">
+     <p class="text-info text-center" id="name2"></p>
+       <button class="btn btn-default" id="a1" value="1" name="nożyczki">Nożyczki</button>
+       <button class="btn btn-info" id="a2" value="2" name="kamień">Kamień</button>
+       <button class="btn btn-danger" id="a3" value="3" name="papier">Papier</button>
+     </div>
+     <div class="col-lg-2 text-info text-center"></div>
+     <div class="col-lg-4 gracz">
+     <p class="text-info text-center" id="comp2"></p>
+     </div>
+   </div>
+   
+ <div class="row">
+     <div class="col-lg-4 gracz text-center " id="gracz">
+        <div id="w-gracz"></div><div id="wybor"></div>
+     </div>
+     <div class="col-lg-2 text-info text-center">VS</div>
+     <div class="col-lg-4 gracz">
+     <div id="komp">
+     <div id="w-komp"></div>
+   </div>
+     </div>
+   </div>
+   
+     
+      <div class="row">
+       <div class="col-lg-4" >
+         <p class="suma grac"><span id="sumagracz" class="badge">0</span></p>     
+       </div>
+       <div class="col-lg-3 gracz text-center"> <div id="info"></div></div>
+       <div class="col-lg-3">
+         <p class="suma komp"><span id="sumakomp" class="badge">0</span></p>
+       </div>
+   </div>
+   
+   </div>
+   
+   <div id="i1"></div><div id="i2"></div>
+  
+ </div>
+  
+ <div id="sumag"></div><div id="sumak"></div><div id="aaaa"></div><div id="bbbb"></div>
+ </div>
+ <script type="text/javascript" src="_js/skrypt.js"></script>
+</body>
+</html>
