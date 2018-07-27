@@ -1,3 +1,3 @@
 # Gra
 nożyce-papier-kamień
-<a href="https://github.com/KrzysKolo/Gra">DEMO</a>
+<a href="https://krzyskolo.github.io/Gra/">DEMO</a>
